@@ -4,7 +4,7 @@ header-img: "img/green.jpg"
 tagline: "cn"  
 description: "这是我的博客"  # 一句话描述你的博客
 baseurl: ""
-url: "http://blog.r6s.site"  # 此处填写你的博客地址 
+url: "http://r6s.site"  # 此处填写你的博客地址 
 
 # About/contact
 owner: 
@@ -13,14 +13,14 @@ owner:
   bio: "你的博客描述" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
-favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/bitbug_favicon.ico # 浏览器地址栏小图标，可自定义更改
+favicon: img/bitbug_favicon.ico # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
 github_username: 
 facebook_username: 
-weibo_username: @Hikari
+weibo_username: 
 zhihu_username: 
 
 # Build settings  
