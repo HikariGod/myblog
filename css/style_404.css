@@ -101,7 +101,7 @@ h1.header-w3ls {
     text-align: center;
 	float:left;
 	width:56%;
-	background: url('../images/banner.png') center no-repeat;
+	background: url('../img/banner.png') center no-repeat;
 	background-size: cover ;
 	min-height:690px;
 }
