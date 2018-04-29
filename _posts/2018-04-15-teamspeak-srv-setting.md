@@ -15,4 +15,4 @@ description: 域名解析
 <br>记录值：<span style="color:red">0 5 [端口号码] [IP/域名]</span>
 <br>才能无需端口正常进入服务器。
 <br><br>
-<br>参考资料：<a href="http://www.zuimc.com/forum.php?mod=viewthread&tid=47131&highlight=ip">[联机] SRV解析/转发 服务器IP端口隐藏-域名转发</a>
+<br>参考资料：<a target="_blank" href="http://www.zuimc.com/forum.php?mod=viewthread&tid=47131&highlight=ip">[联机] SRV解析/转发 服务器IP端口隐藏-域名转发</a>
