@@ -2,7 +2,7 @@
 layout: page
 title: "Tags"
 description: "标签"  
-header-img: "img/semantic.jpg"  
+header-img: "img/green.jpg"  
 ---
 
 <div id='tag_cloud'>
