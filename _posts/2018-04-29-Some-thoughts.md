@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
+title: 关于一些自己建博客的感想
 date: 2018-4-28
 categories: blog
-tags: [标签一,标签二]
+tags: [感想,博客建设]
 description: 文章金句。
 ---
 
