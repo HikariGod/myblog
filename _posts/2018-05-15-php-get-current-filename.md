@@ -16,3 +16,5 @@ function getCurrentFilename(){
   return $filename;
 }
 {% endhighlight %}
+
+参考资料：[PHP:$_SERVER - Manual](http://php.net/manual/zh/reserved.variables.server.php)
