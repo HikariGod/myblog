@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP获取自己文件的名字
-date: 2018-4-15
+date: 2018-5-15
 categories: blog
 tags: [PHP]
 description: PHP获取自己文件的名字
