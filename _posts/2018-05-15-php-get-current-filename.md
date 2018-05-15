@@ -9,7 +9,7 @@ description: PHP获取自己文件的名字
 
 将以下代码复制进你的程序中，使用getCurrentFilename()调取即可
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 function getCurrentFilename(){
   $url = $_SERVER['PHP_SELF'];
   $filename = substr( $url , strrpos($url , '/')+1 );
