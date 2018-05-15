@@ -7,7 +7,7 @@ tags: [PHP]
 description: PHP获取自己文件的名字
 ---
 
-将以下代码复制进你的程序中，使用getCurrentFilename()调取即可
+将以下代码复制进你的程序中，使用<span style="color:red">getCurrentFilename()</span>调取即可
 
 {% highlight ruby %}
 function getCurrentFilename(){
