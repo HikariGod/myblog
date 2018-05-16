@@ -17,7 +17,7 @@ if(isset($_POST['amount'])){
 	$file_amount = $_POST['amount'];
 	if($file_amount>3000){
 		echo "<script>alert('抱歉，生成的数量不能超过3000！');window.location.href='index.php';</script>";
-	}elseif(!is_numeric($$file_amount)){
+	}elseif(!is_numeric($file_amount)){
 		echo "<script>alert('抱歉，只能填写数字');window.location.href='index.php';</script>";
 	}else{
 		//$file_amount = 25;//根据自己要生成的数量自行填写（貌似最大限制是3958的样子）
