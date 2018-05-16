@@ -53,6 +53,7 @@ if(isset($_POST['amount'])){
 				}
 				$zip->close();
 			}
+		}
 		if(!file_exists($zipfilename)){
 			exit("无法找到文件");
 		}
