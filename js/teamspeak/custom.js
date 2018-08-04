@@ -6,7 +6,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('img/teamspeak/banner.jpg');
+		$(".banner-image").backstretch('../img/teamspeak/banner.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
