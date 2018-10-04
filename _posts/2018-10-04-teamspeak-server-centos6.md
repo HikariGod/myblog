@@ -103,7 +103,7 @@ echo "你的Teamspeak服务器的地址是: `curl ipv4.icanhazip.com`"
 
 开启成功后，域名添加一个A记录，IP填写VPS的地址即可
 
-sh脚本我机翻了一下，想要的可以下载：http://r6s.site/main/ts3server_startscript.sh
+sh脚本我机翻了一下，想要的可以下载：[http://r6s.site/main/ts3server_startscript.sh]
 
 我开启后遇到一个奇怪的问题，到现在都还没解决，连接服务器每隔5分钟左右就会断线一次，然后断线2分钟左右又会重新连接上，但是服务器的运行时间显示没有断过
 
