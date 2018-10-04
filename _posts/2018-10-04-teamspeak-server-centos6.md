@@ -53,10 +53,11 @@ iptables -I INPUT -p udp --sport 53 -j ACCEPT
 service iptables save && service iptables restart
 {% endhighlight %}
 
-结果使用后会导致我的ssr服务器连不上，可能是因为端口被关闭了，没有找到解决方法，我直接重新安装系统了
+使用后会导致我的ssr服务器连不上，可能是因为端口被关闭了，没有找到解决方法，我直接重新安装系统了
 
 ----
 
+以下是搭建方法
 在Xshell输入以下命令：
 
 {% highlight ruby %}
@@ -101,10 +102,9 @@ echo "你的Teamspeak服务器的地址是: `curl ipv4.icanhazip.com`"
 {% endhighlight %}
 
 开启成功后，域名添加一个A记录，IP填写VPS的地址即可
+
 sh脚本我机翻了一下，想要的可以下载：http://r6s.site/main/ts3server_startscript.sh
 
 我开启后遇到一个奇怪的问题，到现在都还没解决，连接服务器每隔5分钟左右就会断线一次，然后断线2分钟左右又会重新连接上，但是服务器的运行时间显示没有断过
-
-----
 
 参考资料：[Starting a Teamspeak 3 Server on CentOS 6.4 - Vultr.com](https://www.vultr.com/docs/starting-a-teamspeak-3-server-on-centos-6-4)
