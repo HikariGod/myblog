@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [bash: /home/teamspeak/.bashrc: Permission denied]权限问题
+title: Permission denied 没有权限问题
 date: 2018-10-04
 categories: blog
 tags: [teamspeak]
