@@ -33,7 +33,7 @@ description: 教你如何创建一个基础的discord机器人
 
 ## 2.在服务器里安装nodejs
 
-先进入node.js的官网，下载linux X64包到电脑里，地址：[download | Node.js](https://nodejs.org/en/download/)，（我下的是v8.12.0版本，以下用此版本演示）
+先进入node.js的官网，下载linux X64包到电脑里，地址：[download Node.js](https://nodejs.org/en/download/)，（我下的是v8.12.0版本，以下用此版本演示）
 
 然后使用自己本机的压缩文件解压缩 node-v8.12.0-linux-x64.tar.xz 文件（PS：实在是搞不懂怎么在linux上怎么解压都解压不了，据说可以使用 tar -xvf 命令），然后重新压缩成.tar.gz文件，用ftp上传到你的linux服务器里。
 
