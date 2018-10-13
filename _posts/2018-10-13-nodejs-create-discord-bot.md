@@ -139,13 +139,13 @@ removed 387 packages in 9.113s
 + npm@6.4.1
 added 387 packages from 770 contributors in 9.822s
 It worked
-{% highlight ruby %}
+{% endhighlight %}
 
 这时候运行npm命令就会有了help反应，我们继续安装forever:
 
 {% highlight ruby %}
 npm install -g forever
-{% highlight ruby %}
+{% endhighlight %}
 
 出现下面这种表示forever已经安装好了：
 
@@ -157,14 +157,14 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 
 + forever@0.15.3
 added 242 packages from 153 contributors in 11.098s
-{% highlight ruby %}
+{% endhighlight %}
 
 运行一下forever试试：
 
 {% highlight ruby %}
 [root@vultr node-v8.12.0]# forever
 bash: forever: command not found
-{% highlight ruby %}
+{% endhighlight %}
 
 ![> 09 尴尬](http://r6s.site/img/biaoqin/wulian.jpg)
 还真是多灾多难呢。
@@ -173,14 +173,14 @@ bash: forever: command not found
 
 {% highlight ruby %}
 ln -s /root/node-v8.12.0/lib/node_modules/forever/bin/forever /usr/bin/forever
-{% highlight ruby %}
+{% endhighlight %}
 
 再用node -v看看版本，如果出现以下这种情况还是因为没有建立软链接，用一开始那个命令建立软链接即可：
 
 {% highlight ruby %}
 [root@vultr node-v8.12.0]# node -v
 bash: node: command not found
-{% highlight ruby %}
+{% endhighlight %}
 
 软链接：
 
@@ -243,4 +243,4 @@ forever start index.js
 
 [3][【求助】阿里云 CentOS 6.8 安装 forever](http://tieba.baidu.com/p/5117091739)
 
-[4][npm 安装 发生错误错误](https://blog.csdn.net/jiankunking/article/details/69448618)
+[4][npm 安装 bin/npm: line 1: ../lib/node_modules/npm/bin/npm-cli.js: No such file or directory](https://blog.csdn.net/jiankunking/article/details/69448618)
