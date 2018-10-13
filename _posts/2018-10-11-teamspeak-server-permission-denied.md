@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Permission denied 没有权限问题
-date: 2018-10-04
+date: 2018-10-11
 categories: blog
 tags: [teamspeak]
 description: Teamspeak3服务器问题
