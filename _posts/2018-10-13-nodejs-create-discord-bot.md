@@ -243,4 +243,4 @@ forever start index.js
 
 [3][【求助】阿里云 CentOS 6.8 安装 forever](http://tieba.baidu.com/p/5117091739)
 
-[4][npm 安装 bin/npm: line 1: ../lib/node_modules/npm/bin/npm-cli.js: No such file or directory](https://blog.csdn.net/jiankunking/article/details/69448618)
+[4][npm 安装 发生错误错误](https://blog.csdn.net/jiankunking/article/details/69448618)
