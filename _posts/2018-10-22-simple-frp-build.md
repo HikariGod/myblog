@@ -196,4 +196,4 @@ Windows用户可以使用以下方法：
 
 [3][Linux操作系统下Screen命令的简单使用方法](https://blog.csdn.net/lwm1986/article/details/1725617)
 
-[4](如何用 Frp 实现外网访问群晖 NAS)https://segmentfault.com/a/1190000009895225)
+[4][如何用 Frp 实现外网访问群晖 NAS](https://segmentfault.com/a/1190000009895225)
