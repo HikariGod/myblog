@@ -87,7 +87,6 @@ token = xz65q3zgfx8qx
 type = http
 local_ip = 127.0.0.1
 local_port = 80
-remote_port = 6000
 subdomain = test
 {% endhighlight %}
 
@@ -115,9 +114,6 @@ local_ip = 127.0.0.1
 
 #本地访问的端口
 local_port = 80
-
-#外部端口（我也不太清楚是什么，但每个应用端口不要重复）
-remote_port = 6000
 
 #自定义二级或者三级域名（我这个示范的访问地址是test.frp.r6s.site:8080）
 subdomain = test
@@ -199,3 +195,5 @@ Windows用户可以使用以下方法：
 [2][外网通过frp访问局域网win10电脑本地web服务](https://jingyan.baidu.com/article/9c69d48ff8813813c9024e97.html)
 
 [3][Linux操作系统下Screen命令的简单使用方法](https://blog.csdn.net/lwm1986/article/details/1725617)
+
+[4](如何用 Frp 实现外网访问群晖 NAS)https://segmentfault.com/a/1190000009895225)
