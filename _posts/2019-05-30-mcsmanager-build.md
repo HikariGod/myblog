@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用MCSManager管理Minecraft服务器
-date: 2018-10-22
+date: 2019-05-30
 categories: blog
 tags: [Minecraft]
 description: 使用MCSManager管理Minecraft服务器
