@@ -2,7 +2,7 @@
 layout: page
 description: "用博客记录我的窒息操作，说不定哪天就忘记了呢？"
 ---
-<!-- 一个上班摸鱼苦逼拼图师的博客 -->
+<!-- 文章 -->
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -18,13 +18,13 @@ description: "用博客记录我的窒息操作，说不定哪天就忘记了呢
             {{ post.content | strip_html | truncate:150 }}
         </div>
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%Y-%m-%d" }}</p>
+    <p class="post-meta">{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} 更新于 {{ post.date | date: "%Y-%m-%d" }}</p>
 </div>
 
 <hr>
 {% endfor %}
 
-<!-- Pager -->
+<!-- 分页 -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
